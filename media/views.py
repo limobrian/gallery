@@ -10,3 +10,4 @@ def gallery (request):
     print(all_pic)
     return render(request,'gallery.html',{"all_pic":all_pic})
 
+def 
