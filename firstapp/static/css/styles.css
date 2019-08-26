@@ -2,34 +2,34 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    height: 200px;
-    width: 300px;
-    box-shadow: 4px 3px #98c911;
+    height: 300px;
+    width: 350px;
+  
 }
 #image{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    height: 200px;
-    width: 300px;
-    box-shadow: 4px 3px #98c911;
+    height: 300px;
+    width: 350px;
+    
 }
 .navbar-header a{
     display: inline-block;
     font-family: 'Kaushan Script', cursive;
 }
 .beuty{
-    background-image: url("http://all4desktop.com/data_images/original/4238796-abstract-wallpapers.jpg");
+   
     background-position: center;
-    /* background-color: wheat; */
+   
     padding-top: 50px;
     padding-bottom: 30px;
     padding-left:50px; 
     margin-left: 20px;
 }
-.navbar{
-    background-image: url("http://all4desktop.com/data_images/original/4238772-abstract-wallpapers.jpg");
-}
+/* .navbar{
+    
+} */
 a{
     font-family: 'Kaushan Script', cursive;
 }
@@ -46,7 +46,7 @@ a{
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-image: url("http://all4desktop.com/data_images/wallpapers/3d-and-abstract/372211.jpg");
+    
     background-position: right;
     font-family: 'Kaushan Script', cursive;
     font-size: 4rem;
@@ -58,15 +58,15 @@ a{
     display: block;
     width: 80%;
     max-width: 700px;
-    background-image: url("http://all4desktop.com/data_images/wallpapers/3d-and-abstract/372211.jpg");
+    background-color: greenyellow;
     color:black;
 }
 
 #caption {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    width: 90%;
+    max-width: 800px;
     text-align: center;
     color: #ccc;
     padding: 10px 0;
@@ -125,7 +125,7 @@ a{
     left: 110%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: rgb(71, 4, 51);
+    background-color: rgb(16, 180, 10);
     color: white;
     font-size: 16px;
     padding: 4px 16px;
@@ -137,7 +137,7 @@ a{
   }
   
   .container .btn:hover {
-    background-color: rgb(153, 9, 129);
+    background-color: rgb(32, 202, 9);
   } 
 .one{
     width:40px;
@@ -183,10 +183,10 @@ nav ul li:hover{
 nav ul li a{
     text-decoration:none;
     font-size:1.5vw;
-    color:rgba(129, 6, 82, 0.939);
+    color:rgba(20, 185, 5, 0.939);
 }
 nav ul li:hover a{
-    color:rgb(158, 7, 113, 0.885);
+    color:rgba(44, 218, 9, 0.885);
     text-decoration:none;
 }
 nav .search{
@@ -204,11 +204,11 @@ nav .search{
     border-top-right-radius:0;
     border-bottom-right-radius:0;
     background:rgba(255,255,255,.2);
-    border:2px solid rgba(158, 7, 113, 0.885);
+    border:2px solid rgba(59, 192, 7, 0.885);
 }
 .form-inline .form-control:focus{
     background:#fff;
-    color:rgb(158, 7, 113, 0.885);
+    color:rgba(9, 199, 9, 0.885);
 }
 .form-control::placeholder{
     color:pink;
@@ -239,9 +239,9 @@ nav ul li.home{padding-top:.5em}nav ul li a{text-decoration:none;font-size:20px;
     left: 7%;
     border-radius: -9%;
     font-weight: bold;
-    background: #8c0a85;
-    background: -webkit-linear-gradient(to right, #5e074b, #b215b8, #9e1097);
-    background: linear-gradient(to right, #940b82, #750872, #b40dac);
+    background: #26b60a;
+    background: -webkit-linear-gradient(to right, #26b60a, #26b60a, #26b60a);
+    background: linear-gradient(to right, #26b60a, #26b60a, #26b60a);
     width: 90px;
     padding-top: 0%;
     height: 25px;
@@ -250,7 +250,7 @@ nav ul li.home{padding-top:.5em}nav ul li a{text-decoration:none;font-size:20px;
   #btn-copy .popuptext {
     visibility: hidden;
     width: auto;
-    background-color: rgb(105, 4, 105);
+    background-color: #26b60a;
     color: #fff;
     text-align: center;
     border-radius: 6px;

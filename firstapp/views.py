@@ -5,8 +5,9 @@ from .models import Image
 # Create your views here.
 
 
-def gallery (request):
-    all_pic = Image.objects.all()
+def gallery(request):
+    all_pic = Image.all_pics()
+    print(all_pic)
     return render(request,'gallery.html',{"all_pic":all_pic})
 
 def search_results(request):
