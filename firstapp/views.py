@@ -6,8 +6,7 @@ from .models import Image
 
 
 def gallery (request):
-    all_pic = Image.all_pics()
-    print(all_pic)
+    all_pic = Image.objects.all()
     return render(request,'gallery.html',{"all_pic":all_pic})
 
 def search_results(request):
